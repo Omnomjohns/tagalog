@@ -1,0 +1,1793 @@
+{
+ "unit": {
+  "id": "u02",
+  "order": 2,
+  "title": "Araw-araw",
+  "titleEn": "Every day",
+  "goals": [
+   "Describe your daily routine and habits",
+   "Say what you did, are doing and will do",
+   "Place na, pa, lang and rin correctly"
+  ],
+  "skills": [
+   "focus_actor",
+   "aspect",
+   "enclitics",
+   "word_order",
+   "markers"
+  ],
+  "status": "needs_review"
+ },
+ "chunks": [
+  {
+   "id": "u02-c01",
+   "unitId": "u02",
+   "tl": "tuwing …",
+   "en": "every … (recurring time)",
+   "de": "jeden …",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c02",
+   "unitId": "u02",
+   "tl": "palagi / lagi",
+   "en": "always",
+   "de": "immer",
+   "skills": [
+    "word_order"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c03",
+   "unitId": "u02",
+   "tl": "minsan",
+   "en": "sometimes",
+   "de": "manchmal",
+   "skills": [
+    "word_order"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c04",
+   "unitId": "u02",
+   "tl": "kanina / mamaya",
+   "en": "earlier today / later today",
+   "de": "vorhin / später",
+   "skills": [
+    "aspect"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c05",
+   "unitId": "u02",
+   "tl": "kahapon / bukas",
+   "en": "yesterday / tomorrow",
+   "de": "gestern / morgen",
+   "skills": [
+    "aspect"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c06",
+   "unitId": "u02",
+   "tl": "na",
+   "en": "already; now",
+   "de": "schon",
+   "skills": [
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c07",
+   "unitId": "u02",
+   "tl": "pa",
+   "en": "still; yet",
+   "de": "noch",
+   "skills": [
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c08",
+   "unitId": "u02",
+   "tl": "lang",
+   "en": "only; just",
+   "de": "nur",
+   "skills": [
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c09",
+   "unitId": "u02",
+   "tl": "rin / din",
+   "en": "also (rin after vowels, din after consonants)",
+   "de": "auch",
+   "skills": [
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c10",
+   "unitId": "u02",
+   "tl": "hindi pa",
+   "en": "not yet (with the incompleted aspect)",
+   "de": "noch nicht",
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c11",
+   "unitId": "u02",
+   "tl": "papunta na ako",
+   "en": "I'm on my way",
+   "de": "ich bin unterwegs",
+   "skills": [
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-c12",
+   "unitId": "u02",
+   "tl": "bago … / pagkatapos ng …",
+   "en": "before … / after …",
+   "de": "bevor … / nach …",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "u02-g01",
+   "unitId": "u02",
+   "name": "Actor focus: -um- and mag-",
+   "explanationEn": "In actor focus the doer is the ang-phrase (or ako/ka/siya). Each root takes either -um- or mag-; this has to be learned with the verb.",
+   "formula": "-um- verbs · mag- verbs",
+   "examples": [
+    {
+     "tl": "Kumain ako.",
+     "en": "I ate."
+    },
+    {
+     "tl": "Nagluto ako.",
+     "en": "I cooked."
+    }
+   ],
+   "skills": [
+    "focus_actor"
+   ]
+  },
+  {
+   "id": "u02-g02",
+   "unitId": "u02",
+   "name": "Three aspects of -um- verbs",
+   "explanationEn": "Completed: -um- in the root. Incompleted: -um- plus the first syllable repeated. Contemplated: only the first syllable repeated, no -um-.",
+   "formula": "kumain · kumakain · kakain",
+   "examples": [
+    {
+     "tl": "Kumain ako kanina.",
+     "en": "I ate earlier."
+    },
+    {
+     "tl": "Kumakain ako ngayon.",
+     "en": "I am eating now."
+    },
+    {
+     "tl": "Kakain ako mamaya.",
+     "en": "I will eat later."
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ]
+  },
+  {
+   "id": "u02-g03",
+   "unitId": "u02",
+   "name": "Three aspects of mag- verbs",
+   "explanationEn": "Completed: nag-. Incompleted: nag- plus the first syllable repeated. Contemplated: mag- plus the first syllable repeated.",
+   "formula": "nagluto · nagluluto · magluluto",
+   "examples": [
+    {
+     "tl": "Nag-aral ako kagabi.",
+     "en": "I studied last night."
+    },
+    {
+     "tl": "Nag-aaral ako.",
+     "en": "I am studying."
+    },
+    {
+     "tl": "Mag-aaral ako bukas.",
+     "en": "I will study tomorrow."
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ]
+  },
+  {
+   "id": "u02-g04",
+   "unitId": "u02",
+   "name": "Enclitics after the first word",
+   "explanationEn": "Short particles and pronouns cluster right after the first word of the clause. When a time word or hindi comes first, they follow it instead of the verb.",
+   "formula": "FIRST WORD + ka/ko/mo + na/pa + rin/lang/po/ba + other pronouns",
+   "examples": [
+    {
+     "tl": "Kumain ka na ba?",
+     "en": "Have you eaten already?"
+    },
+    {
+     "tl": "Hindi pa ako kumakain.",
+     "en": "I haven't eaten yet."
+    },
+    {
+     "tl": "Palagi akong umiinom ng kape.",
+     "en": "I always drink coffee."
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "word_order"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "u02-i001",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I wake up at six every day.",
+   "cueDe": "Ich stehe jeden Tag um sechs auf.",
+   "answers": [
+    {
+     "tl": "Alas-sais ako gumigising araw-araw.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "aspect",
+    "focus_actor"
+   ],
+   "difficulty": 2,
+   "gloss": "The time comes first, so ako follows it, not the verb.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i002",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I already ate.",
+   "cueDe": "Ich habe schon gegessen.",
+   "answers": [
+    {
+     "tl": "Kumain na ako.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Kumain na po ako.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i003",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I haven't eaten yet.",
+   "cueDe": "Ich habe noch nicht gegessen.",
+   "answers": [
+    {
+     "tl": "Hindi pa ako kumakain.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Hindi pa po ako kumakain.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "gloss": "hindi pa takes the incompleted aspect.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i004",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'll eat later.",
+   "cueDe": "Ich esse später.",
+   "answers": [
+    {
+     "tl": "Kakain ako mamaya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i005",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'm cooking right now.",
+   "cueDe": "Ich koche gerade.",
+   "answers": [
+    {
+     "tl": "Nagluluto ako ngayon.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i006",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I cooked adobo yesterday.",
+   "cueDe": "Ich habe gestern Adobo gekocht.",
+   "answers": [
+    {
+     "tl": "Nagluto ako ng adobo kahapon.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i007",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'll cook tomorrow.",
+   "cueDe": "Ich koche morgen.",
+   "answers": [
+    {
+     "tl": "Magluluto ako bukas.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i008",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I take the train to university.",
+   "cueDe": "Ich fahre mit dem Zug zur Uni.",
+   "answers": [
+    {
+     "tl": "Sumasakay ako ng tren papunta sa unibersidad.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i009",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I always drink coffee in the morning.",
+   "cueDe": "Ich trinke morgens immer Kaffee.",
+   "answers": [
+    {
+     "tl": "Palagi akong umiinom ng kape sa umaga.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "aspect",
+    "linker"
+   ],
+   "difficulty": 2,
+   "gloss": "palagi comes first, so ako follows it and takes -ng.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i010",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "Sometimes I work at night.",
+   "cueDe": "Manchmal arbeite ich nachts.",
+   "answers": [
+    {
+     "tl": "Minsan, nagtatrabaho ako sa gabi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i011",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "Every Saturday, I clean the house.",
+   "cueDe": "Jeden Samstag putze ich das Haus.",
+   "answers": [
+    {
+     "tl": "Tuwing Sabado, naglilinis ako ng bahay.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i012",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I only slept five hours.",
+   "cueDe": "Ich habe nur fünf Stunden geschlafen.",
+   "answers": [
+    {
+     "tl": "Limang oras lang ang tulog ko.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Limang oras lang ako natulog.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i013",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'm still studying.",
+   "cueDe": "Ich lerne noch.",
+   "answers": [
+    {
+     "tl": "Nag-aaral pa ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i014",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "Have you eaten already?",
+   "cueDe": "Hast du schon gegessen?",
+   "answers": [
+    {
+     "tl": "Kumain ka na ba?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Kumain na po ba kayo?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect",
+    "politeness"
+   ],
+   "difficulty": 2,
+   "gloss": "ka comes first, then na, then ba. The longer pronoun kayo goes last.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i015",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I also work on weekends.",
+   "cueDe": "Ich arbeite auch am Wochenende.",
+   "answers": [
+    {
+     "tl": "Nagtatrabaho rin ako tuwing Sabado at Linggo.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i016",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "Where are you going?",
+   "cueDe": "Wohin gehst du?",
+   "answers": [
+    {
+     "tl": "Saan ka pupunta?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Saan po kayo pupunta?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "word_order",
+    "politeness"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i017",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I went to the gym earlier.",
+   "cueDe": "Ich war vorhin im Fitnessstudio.",
+   "answers": [
+    {
+     "tl": "Pumunta ako sa gym kanina.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i018",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I come home late on Tuesdays.",
+   "cueDe": "Dienstags komme ich spät nach Hause.",
+   "answers": [
+    {
+     "tl": "Gabi na ako umuuwi tuwing Martes.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i019",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I shower before I sleep.",
+   "cueDe": "Ich dusche, bevor ich schlafe.",
+   "answers": [
+    {
+     "tl": "Naliligo ako bago matulog.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "connectors"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i020",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I read a little before sleeping.",
+   "cueDe": "Ich lese ein bisschen vor dem Schlafen.",
+   "answers": [
+    {
+     "tl": "Nagbabasa ako nang kaunti bago matulog.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "connectors"
+   ],
+   "difficulty": 3,
+   "gloss": "nang (not ng) before an adverb of manner or amount.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i021",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "My mom calls my lola every Sunday.",
+   "cueDe": "Meine Mutter ruft jeden Sonntag meine Oma an.",
+   "answers": [
+    {
+     "tl": "Tumatawag ang nanay ko sa lola ko tuwing Linggo.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i022",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "We eat together every evening.",
+   "cueDe": "Wir essen jeden Abend zusammen.",
+   "answers": [
+    {
+     "tl": "Sabay-sabay kaming kumakain tuwing gabi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "linker",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i023",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I walk to work.",
+   "cueDe": "Ich gehe zu Fuß zur Arbeit.",
+   "answers": [
+    {
+     "tl": "Naglalakad ako papunta sa trabaho.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i024",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "He hasn't come home yet.",
+   "cueDe": "Er ist noch nicht nach Hause gekommen.",
+   "answers": [
+    {
+     "tl": "Hindi pa siya umuuwi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i025",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'll just rest tonight.",
+   "cueDe": "Ich ruhe mich heute Abend nur aus.",
+   "answers": [
+    {
+     "tl": "Magpapahinga lang ako mamayang gabi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i026",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I studied until midnight.",
+   "cueDe": "Ich habe bis Mitternacht gelernt.",
+   "answers": [
+    {
+     "tl": "Nag-aral ako hanggang hatinggabi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i027",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "Do you still work there?",
+   "cueDe": "Arbeitest du noch dort?",
+   "answers": [
+    {
+     "tl": "Nagtatrabaho ka pa ba doon?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Nagtatrabaho pa po ba kayo doon?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect",
+    "politeness"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i028",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I buy food after class.",
+   "cueDe": "Nach dem Unterricht kaufe ich Essen.",
+   "answers": [
+    {
+     "tl": "Bumibili ako ng pagkain pagkatapos ng klase.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i029",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I rarely watch TV.",
+   "cueDe": "Ich schaue selten fern.",
+   "answers": [
+    {
+     "tl": "Bihira akong manood ng TV.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i030",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I woke up late this morning.",
+   "cueDe": "Ich bin heute Morgen spät aufgewacht.",
+   "answers": [
+    {
+     "tl": "Late na akong nagising kaninang umaga.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "word_order",
+    "linker"
+   ],
+   "difficulty": 3,
+   "gloss": "\"Tanghali na akong nagising\" is the more traditional way to say it.",
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i031",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "What time are you leaving tomorrow?",
+   "cueDe": "Um wie viel Uhr gehst du morgen los?",
+   "answers": [
+    {
+     "tl": "Anong oras ka aalis bukas?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Anong oras po kayo aalis bukas?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "word_order",
+    "politeness"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i032",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'm already on my way.",
+   "cueDe": "Ich bin schon unterwegs.",
+   "answers": [
+    {
+     "tl": "Papunta na ako.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Papunta na po ako.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i033",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I usually sleep at eleven.",
+   "cueDe": "Normalerweise schlafe ich um elf.",
+   "answers": [
+    {
+     "tl": "Karaniwan, alas-onse ako natutulog.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i034",
+   "unitId": "u02",
+   "type": "produce",
+   "cueEn": "I'll call you later.",
+   "cueDe": "Ich rufe dich später an.",
+   "answers": [
+    {
+     "tl": "Tatawagan kita mamaya.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Tatawag ako sa iyo mamaya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "gloss": "Tatawagan kita is the natural version (kita = I → you). Tatawag ako sa iyo keeps actor focus.",
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i035",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I eat breakfast every day.",
+   "instruction": "Make it a habit (incompleted) and add \"every day\".",
+   "sourceTl": "Kumain ako ng almusal.",
+   "answers": [
+    {
+     "tl": "Kumakain ako ng almusal araw-araw.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i036",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "Mom will cook.",
+   "instruction": "Make it contemplated.",
+   "sourceTl": "Nagluluto si Nanay.",
+   "answers": [
+    {
+     "tl": "Magluluto si Nanay.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i037",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I will drink coffee.",
+   "instruction": "Make it contemplated.",
+   "sourceTl": "Uminom ako ng kape.",
+   "answers": [
+    {
+     "tl": "Iinom ako ng kape.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 2,
+   "gloss": "A vowel-initial root repeats the vowel: i-inom.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i038",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I studied earlier.",
+   "instruction": "Make it completed and change the time word to \"earlier\".",
+   "sourceTl": "Mag-aaral ako mamaya.",
+   "answers": [
+    {
+     "tl": "Nag-aral ako kanina.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i039",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I'm still working.",
+   "instruction": "Add \"still\".",
+   "sourceTl": "Nagtatrabaho ako.",
+   "answers": [
+    {
+     "tl": "Nagtatrabaho pa ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i040",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "Has he gone home already?",
+   "instruction": "Turn it into a question with \"already\".",
+   "sourceTl": "Umuwi siya.",
+   "answers": [
+    {
+     "tl": "Umuwi na ba siya?",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i041",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I also go to the gym.",
+   "instruction": "Add \"also\".",
+   "sourceTl": "Pumupunta ako sa gym.",
+   "answers": [
+    {
+     "tl": "Pumupunta rin ako sa gym.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i042",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I always exercise.",
+   "instruction": "Start the sentence with \"Palagi\".",
+   "sourceTl": "Nag-eehersisyo ako.",
+   "answers": [
+    {
+     "tl": "Palagi akong nag-eehersisyo.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i043",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "I'm buying bread right now.",
+   "instruction": "Make it incompleted: happening right now.",
+   "sourceTl": "Bumili ako ng tinapay.",
+   "answers": [
+    {
+     "tl": "Bumibili ako ng tinapay ngayon.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i044",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "The child has already fallen asleep.",
+   "instruction": "Make it completed and add \"already\".",
+   "sourceTl": "Natutulog ang bata.",
+   "answers": [
+    {
+     "tl": "Natulog na ang bata.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i045",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "You haven't eaten yet.",
+   "instruction": "Make it negative: \"You haven't eaten yet.\"",
+   "sourceTl": "Kumain ka na.",
+   "answers": [
+    {
+     "tl": "Hindi ka pa kumakain.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "gloss": "hindi comes first, so ka and pa follow it; the verb becomes incompleted.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i046",
+   "unitId": "u02",
+   "type": "transform",
+   "cueEn": "She will write an email.",
+   "instruction": "Make it contemplated.",
+   "sourceTl": "Sumulat siya ng email.",
+   "answers": [
+    {
+     "tl": "Susulat siya ng email.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i047",
+   "unitId": "u02",
+   "type": "chunkbuild",
+   "cueEn": "Say that every morning you always have coffee.",
+   "cueDe": "Sag, dass du jeden Morgen immer Kaffee trinkst.",
+   "answers": [
+    {
+     "tl": "Tuwing umaga, palagi akong nagkakape.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "tuwing",
+    "palagi"
+   ],
+   "skills": [
+    "word_order",
+    "linker",
+    "aspect"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i048",
+   "unitId": "u02",
+   "type": "chunkbuild",
+   "cueEn": "Say you studied earlier and will work later.",
+   "cueDe": "Sag, dass du vorhin gelernt hast und später arbeitest.",
+   "answers": [
+    {
+     "tl": "Nag-aral ako kanina, at magtatrabaho ako mamaya.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "kanina",
+    "mamaya"
+   ],
+   "skills": [
+    "aspect"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i049",
+   "unitId": "u02",
+   "type": "chunkbuild",
+   "cueEn": "Say you already ate but haven't showered yet.",
+   "cueDe": "Sag, dass du schon gegessen, aber noch nicht geduscht hast.",
+   "answers": [
+    {
+     "tl": "Kumain na ako, pero hindi pa ako naliligo.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "na",
+    "hindi pa"
+   ],
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i050",
+   "unitId": "u02",
+   "type": "chunkbuild",
+   "cueEn": "Say that sometimes you just sleep all day.",
+   "cueDe": "Sag, dass du manchmal einfach den ganzen Tag schläfst.",
+   "answers": [
+    {
+     "tl": "Minsan, natutulog lang ako buong araw.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "minsan",
+    "lang"
+   ],
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i051",
+   "unitId": "u02",
+   "type": "chunkbuild",
+   "cueEn": "Say you have breakfast before leaving and rest after work.",
+   "cueDe": "Sag, dass du vor dem Losgehen frühstückst und dich nach der Arbeit ausruhst.",
+   "answers": [
+    {
+     "tl": "Nag-aalmusal ako bago umalis, at nagpapahinga ako pagkatapos ng trabaho.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "bago",
+    "pagkatapos ng"
+   ],
+   "skills": [
+    "aspect",
+    "connectors"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i052",
+   "unitId": "u02",
+   "type": "chunkbuild",
+   "cueEn": "Say you study every day and also work.",
+   "cueDe": "Sag, dass du jeden Tag lernst und auch arbeitest.",
+   "answers": [
+    {
+     "tl": "Araw-araw akong nag-aaral, at nagtatrabaho rin ako.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "araw-araw",
+    "rin"
+   ],
+   "skills": [
+    "word_order",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i053",
+   "unitId": "u02",
+   "type": "shadow",
+   "cueEn": "I get up early whenever there is school or work.",
+   "answers": [
+    {
+     "tl": "Maaga akong gumigising tuwing may pasok.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "linker",
+    "aspect"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i054",
+   "unitId": "u02",
+   "type": "shadow",
+   "cueEn": "After class, I go straight to work.",
+   "answers": [
+    {
+     "tl": "Pagkatapos ng klase, dumidiretso ako sa trabaho.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i055",
+   "unitId": "u02",
+   "type": "shadow",
+   "cueEn": "I haven't eaten yet, so I'm really hungry now.",
+   "answers": [
+    {
+     "tl": "Hindi pa ako kumakain, kaya gutom na gutom na ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect",
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i056",
+   "unitId": "u02",
+   "type": "shadow",
+   "cueEn": "Every Sunday, my mom cooks sinigang.",
+   "answers": [
+    {
+     "tl": "Tuwing Linggo, nagluluto ang nanay ko ng sinigang.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i057",
+   "unitId": "u02",
+   "type": "shadow",
+   "cueEn": "I'll rest first before I study again.",
+   "answers": [
+    {
+     "tl": "Magpapahinga muna ako bago ako mag-aral ulit.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i058",
+   "unitId": "u02",
+   "type": "recognize",
+   "cueEn": "I just ate.",
+   "answers": [
+    {
+     "tl": "Kakakain ko lang.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i059",
+   "unitId": "u02",
+   "type": "recognize",
+   "cueEn": "I'm leaving now.",
+   "answers": [
+    {
+     "tl": "Aalis na ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u02-i060",
+   "unitId": "u02",
+   "type": "recognize",
+   "cueEn": "She's still reading.",
+   "answers": [
+    {
+     "tl": "Nagbabasa pa siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "u02-p01",
+   "unitId": "u02",
+   "kind": "situation",
+   "promptEn": "Your Tita asks what a normal weekday looks like for you. Walk her through it politely.",
+   "requiredChunks": [
+    "tuwing",
+    "pagkatapos",
+    "bago"
+   ],
+   "modelAnswer": {
+    "tl": "Tuwing may pasok, alas-sais po ako gumigising. Nag-aalmusal po ako bago umalis, tapos sumasakay ako ng tren papunta sa unibersidad. Pagkatapos ng klase, nagtatrabaho po ako hanggang gabi. Pagod na po ako pag-uwi, kaya maaga akong natutulog."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "aspect",
+    "enclitics",
+    "politeness"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p02",
+   "unitId": "u02",
+   "kind": "retell432",
+   "promptEn": "Describe your typical day from waking up to going to sleep.",
+   "requiredChunks": [
+    "palagi",
+    "minsan",
+    "na"
+   ],
+   "modelAnswer": {
+    "tl": "Maaga akong gumigising araw-araw. Palagi akong nagkakape bago umalis. Pumapasok ako sa unibersidad sa umaga, at nagtatrabaho ako sa hapon. Minsan, nagkikita kami ng mga kaibigan ko pagkatapos ng trabaho. Pag-uwi ko, kumakain ako, naliligo, at natutulog na."
+   },
+   "targetSeconds": 90,
+   "skills": [
+    "aspect",
+    "word_order",
+    "enclitics"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p03",
+   "unitId": "u02",
+   "kind": "story",
+   "promptEn": "Tell what you did yesterday, step by step.",
+   "requiredChunks": [
+    "kahapon",
+    "tapos",
+    "kagabi"
+   ],
+   "modelAnswer": {
+    "tl": "Kahapon, late na akong nagising. Nag-almusal ako nang mabilis, tapos pumasok ako sa klase. Pagkatapos, nagtrabaho ako nang limang oras. Kagabi, nagluto ako ng hapunan at nanood ng pelikula bago natulog."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "aspect",
+    "focus_actor",
+    "connectors"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p04",
+   "unitId": "u02",
+   "kind": "situation",
+   "promptEn": "Tell a friend your plans for tomorrow and the weekend.",
+   "requiredChunks": [
+    "bukas",
+    "sa Sabado",
+    "lang"
+   ],
+   "modelAnswer": {
+    "tl": "Bukas, papasok ako sa umaga at magtatrabaho ako sa hapon. Sa Sabado, maglilinis ako ng kuwarto at maglalaba. Sa Linggo, magpapahinga lang ako at tatawag ako sa lola ko."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "aspect",
+    "enclitics",
+    "focus_actor"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p05",
+   "unitId": "u02",
+   "kind": "opinion",
+   "promptEn": "Are you a morning person or a night person? Explain with your habits.",
+   "requiredChunks": [
+    "mas",
+    "kasi",
+    "tuwing"
+   ],
+   "modelAnswer": {
+    "tl": "Mas gising ako sa gabi kasi mas nakakapag-isip ako nang maayos. Tuwing umaga, antok na antok pa ako at kailangan ko ng kape. Pero dahil maaga ang klase ko, kailangan kong gumising nang maaga."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "aspect",
+    "enclitics",
+    "connectors"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p06",
+   "unitId": "u02",
+   "kind": "retell432",
+   "promptEn": "Compare a weekday with a Sunday in your life.",
+   "requiredChunks": [
+    "tuwing Linggo",
+    "rin",
+    "pa"
+   ],
+   "modelAnswer": {
+    "tl": "Tuwing may pasok, abala ako mula umaga hanggang gabi. Nag-aaral ako at nagtatrabaho rin. Tuwing Linggo naman, tanghali na ako gumigising. Nagsisimba kami minsan, tapos sabay-sabay kaming kumakain. Sa gabi, nag-aaral pa ako nang kaunti para sa Lunes."
+   },
+   "targetSeconds": 90,
+   "skills": [
+    "aspect",
+    "enclitics",
+    "word_order"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p07",
+   "unitId": "u02",
+   "kind": "situation",
+   "promptEn": "You are running late. Call the person waiting: say where you are, what happened and when you will arrive.",
+   "requiredChunks": [
+    "papunta na",
+    "pa",
+    "kasi"
+   ],
+   "modelAnswer": {
+    "tl": "Hello, pasensiya na, male-late ako. Nasa tren pa ako kasi na-delay ito. Papunta na ako riyan. Darating ako sa loob ng sampung minuto."
+   },
+   "targetSeconds": 45,
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u02-p08",
+   "unitId": "u02",
+   "kind": "situation",
+   "promptEn": "Your mom asks what you have already done today and what is still left. Answer politely.",
+   "requiredChunks": [
+    "na",
+    "hindi pa",
+    "pa"
+   ],
+   "modelAnswer": {
+    "tl": "Naglinis na po ako ng kuwarto at naglaba na rin po ako. Hindi pa po ako nagluluto, pero magluluto ako mamaya. Kailangan ko pa pong mag-aral para sa exam bukas."
+   },
+   "targetSeconds": 45,
+   "skills": [
+    "enclitics",
+    "aspect",
+    "politeness"
+   ],
+   "review": "needs_review"
+  }
+ ]
+}

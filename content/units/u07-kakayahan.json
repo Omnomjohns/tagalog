@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "id": "u07",
+  "order": 7,
+  "title": "Kakayahan at sanhi",
+  "titleEn": "Abilities and causes",
+  "goals": [
+   "Say what you can or managed to do",
+   "Say what happened by accident",
+   "Have someone do something (causatives)"
+  ],
+  "skills": [
+   "abilitative",
+   "causatives",
+   "aspect"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u07-i001",
+   "unitId": "u07",
+   "type": "produce",
+   "cueEn": "I managed to finish the work.",
+   "answers": [
+    {
+     "tl": "Natapos ko ang trabaho.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "abilitative",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u07-i002",
+   "unitId": "u07",
+   "type": "produce",
+   "cueEn": "I can't sleep.",
+   "answers": [
+    {
+     "tl": "Hindi ako makatulog.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "abilitative"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u07-i003",
+   "unitId": "u07",
+   "type": "produce",
+   "cueEn": "I got a haircut.",
+   "answers": [
+    {
+     "tl": "Nagpagupit ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "causatives"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  },
+  {
+   "id": "u07-i004",
+   "unitId": "u07",
+   "type": "produce",
+   "cueEn": "I accidentally broke the glass.",
+   "answers": [
+    {
+     "tl": "Nabasag ko ang baso.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "abilitative"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u07-i005",
+   "unitId": "u07",
+   "type": "produce",
+   "cueEn": "I'll have my brother fix the car.",
+   "answers": [
+    {
+     "tl": "Ipapaayos ko ang kotse sa kuya ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "causatives"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

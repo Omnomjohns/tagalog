@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "id": "u08",
+  "order": 8,
+  "title": "Kung… sana",
+  "titleEn": "Hypotheticals",
+  "goals": [
+   "Talk about unreal and uncertain situations",
+   "Use kung, kapag, baka, siguro, yata"
+  ],
+  "skills": [
+   "conditionals",
+   "enclitics",
+   "aspect"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u08-i001",
+   "unitId": "u08",
+   "type": "produce",
+   "cueEn": "If I had money, I would travel.",
+   "answers": [
+    {
+     "tl": "Kung may pera ako, magbibiyahe sana ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  },
+  {
+   "id": "u08-i002",
+   "unitId": "u08",
+   "type": "produce",
+   "cueEn": "I wish I had studied.",
+   "answers": [
+    {
+     "tl": "Sana nag-aral ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u08-i003",
+   "unitId": "u08",
+   "type": "produce",
+   "cueEn": "Maybe he's sick.",
+   "answers": [
+    {
+     "tl": "Baka may sakit siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u08-i004",
+   "unitId": "u08",
+   "type": "produce",
+   "cueEn": "Whenever I'm tired, I go to sleep early.",
+   "answers": [
+    {
+     "tl": "Kapag pagod ako, maaga akong natutulog.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u08-i005",
+   "unitId": "u08",
+   "type": "produce",
+   "cueEn": "I think he already left.",
+   "answers": [
+    {
+     "tl": "Umalis na yata siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

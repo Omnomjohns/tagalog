@@ -1,0 +1,1799 @@
+{
+ "unit": {
+  "id": "u03",
+  "order": 3,
+  "title": "Sa tingin ko…",
+  "titleEn": "I think…",
+  "goals": [
+   "Say what you like, want, need and can do",
+   "Give an opinion with a reason",
+   "Contrast and concede with pero, kaso and kahit"
+  ],
+  "skills": [
+   "pseudo_verbs",
+   "connectors",
+   "linker",
+   "enclitics",
+   "word_order"
+  ],
+  "status": "needs_review"
+ },
+ "chunks": [
+  {
+   "id": "u03-c01",
+   "unitId": "u03",
+   "tl": "sa tingin ko",
+   "en": "I think; in my view",
+   "de": "ich finde; meiner Meinung nach",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c02",
+   "unitId": "u03",
+   "tl": "para sa akin",
+   "en": "for me",
+   "de": "für mich",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c03",
+   "unitId": "u03",
+   "tl": "sa palagay ko",
+   "en": "in my opinion",
+   "de": "meiner Ansicht nach",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c04",
+   "unitId": "u03",
+   "tl": "kasi",
+   "en": "because (conversational)",
+   "de": "weil",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c05",
+   "unitId": "u03",
+   "tl": "dahil / dahil sa",
+   "en": "because / because of",
+   "de": "weil / wegen",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c06",
+   "unitId": "u03",
+   "tl": "kaya",
+   "en": "so; that is why",
+   "de": "deshalb",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c07",
+   "unitId": "u03",
+   "tl": "kaya naman",
+   "en": "and so; which is why",
+   "de": "und deshalb",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c08",
+   "unitId": "u03",
+   "tl": "pero / kaso",
+   "en": "but / but the thing is",
+   "de": "aber / nur dass",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c09",
+   "unitId": "u03",
+   "tl": "kahit … pa rin",
+   "en": "even though … still",
+   "de": "obwohl … trotzdem",
+   "skills": [
+    "connectors",
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c10",
+   "unitId": "u03",
+   "tl": "gusto ko sana",
+   "en": "I would like to (but…)",
+   "de": "ich würde gern (aber…)",
+   "skills": [
+    "pseudo_verbs",
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c11",
+   "unitId": "u03",
+   "tl": "mas … kaysa sa …",
+   "en": "more … than …",
+   "de": "mehr … als …",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-c12",
+   "unitId": "u03",
+   "tl": "ano sa tingin mo?",
+   "en": "what do you think?",
+   "de": "was meinst du?",
+   "skills": [
+    "connectors"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "u03-g01",
+   "unitId": "u03",
+   "name": "Pseudo-verbs",
+   "explanationEn": "These words do not change for aspect. The doer is a ko-set pronoun (dapat and puwede take the ako-set), followed by the linker and the basic verb form.",
+   "formula": "gusto / ayaw / kailangan / dapat / puwede / kaya + ko-set + linker + verb",
+   "examples": [
+    {
+     "tl": "Gusto kong kumain.",
+     "en": "I want to eat."
+    },
+    {
+     "tl": "Kailangan niyang mag-aral.",
+     "en": "She needs to study."
+    },
+    {
+     "tl": "Dapat kang magpahinga.",
+     "en": "You should rest."
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ]
+  },
+  {
+   "id": "u03-g02",
+   "unitId": "u03",
+   "name": "gusto + ng or ang",
+   "explanationEn": "Use ng for something indefinite and ang for something specific or already known.",
+   "formula": "Gusto ko ng X (some X) · Gusto ko ang X (that specific X)",
+   "examples": [
+    {
+     "tl": "Gusto ko ng kape.",
+     "en": "I want (some) coffee."
+    },
+    {
+     "tl": "Gusto ko ang kantang ito.",
+     "en": "I like this song."
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "markers"
+   ]
+  },
+  {
+   "id": "u03-g03",
+   "unitId": "u03",
+   "name": "Opinion frames",
+   "explanationEn": "Open with the frame, then say the sentence in normal predicate-first order.",
+   "formula": "Sa tingin ko, … · Para sa akin, … · Sa palagay ko, …",
+   "examples": [
+    {
+     "tl": "Sa tingin ko, tama siya.",
+     "en": "I think he's right."
+    },
+    {
+     "tl": "Para sa akin, pamilya ang pinakamahalaga.",
+     "en": "For me, family is the most important."
+    }
+   ],
+   "skills": [
+    "connectors",
+    "word_order"
+   ]
+  },
+  {
+   "id": "u03-g04",
+   "unitId": "u03",
+   "name": "Reason, result, contrast",
+   "explanationEn": "kasi is conversational, dahil a bit more formal; dahil sa comes before a noun. kahit often pairs with pa rin in the main clause.",
+   "formula": "kasi / dahil (because) · kaya (so) · pero / kaso (but) · kahit (even though)",
+   "examples": [
+    {
+     "tl": "Pagod ako kasi nagtrabaho ako kagabi.",
+     "en": "I'm tired because I worked last night."
+    },
+    {
+     "tl": "Kahit pagod ako, mag-aaral pa rin ako.",
+     "en": "Even though I'm tired, I'll still study."
+    }
+   ],
+   "skills": [
+    "connectors"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "u03-i001",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I want to eat.",
+   "cueDe": "Ich will essen.",
+   "answers": [
+    {
+     "tl": "Gusto kong kumain.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i002",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I want coffee.",
+   "cueDe": "Ich möchte Kaffee.",
+   "answers": [
+    {
+     "tl": "Gusto ko ng kape.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Gusto ko po ng kape.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i003",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I like this song.",
+   "cueDe": "Ich mag dieses Lied.",
+   "answers": [
+    {
+     "tl": "Gusto ko ang kantang ito.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "markers",
+    "linker"
+   ],
+   "difficulty": 2,
+   "gloss": "ang, because it is one specific song.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i004",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I don't like spicy food.",
+   "cueDe": "Ich mag kein scharfes Essen.",
+   "answers": [
+    {
+     "tl": "Ayaw ko ng maanghang na pagkain.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Ayoko ng maanghang.",
+     "register": "casual"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i005",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I need to study tonight.",
+   "cueDe": "Ich muss heute Abend lernen.",
+   "answers": [
+    {
+     "tl": "Kailangan kong mag-aral mamayang gabi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i006",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "You should rest.",
+   "cueDe": "Du solltest dich ausruhen.",
+   "answers": [
+    {
+     "tl": "Dapat kang magpahinga.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Dapat po kayong magpahinga.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker",
+    "politeness"
+   ],
+   "difficulty": 2,
+   "gloss": "dapat takes ka (ako-set), not mo.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i007",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "Can I ask a question?",
+   "cueDe": "Darf ich etwas fragen?",
+   "answers": [
+    {
+     "tl": "Puwede ba akong magtanong?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Puwede po ba akong magtanong?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i008",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I can't come tomorrow.",
+   "cueDe": "Ich kann morgen nicht kommen.",
+   "answers": [
+    {
+     "tl": "Hindi ako puwede bukas.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Hindi ako makakapunta bukas.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i009",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I think he's right.",
+   "cueDe": "Ich finde, er hat recht.",
+   "answers": [
+    {
+     "tl": "Sa tingin ko, tama siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "word_order"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i010",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "For me, family is the most important thing.",
+   "cueDe": "Für mich ist Familie das Wichtigste.",
+   "answers": [
+    {
+     "tl": "Para sa akin, pamilya ang pinakamahalaga.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i011",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "In my opinion, German is hard to learn.",
+   "cueDe": "Meiner Meinung nach ist Deutsch schwer zu lernen.",
+   "answers": [
+    {
+     "tl": "Sa palagay ko, mahirap mag-aral ng Aleman.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i012",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I'm tired because I worked last night.",
+   "cueDe": "Ich bin müde, weil ich gestern Abend gearbeitet habe.",
+   "answers": [
+    {
+     "tl": "Pagod ako kasi nagtrabaho ako kagabi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "aspect"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i013",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "It rained, so I just stayed home.",
+   "cueDe": "Es hat geregnet, also bin ich einfach zu Hause geblieben.",
+   "answers": [
+    {
+     "tl": "Umulan, kaya nasa bahay lang ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i014",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I want to go, but I have no time.",
+   "cueDe": "Ich will hingehen, aber ich habe keine Zeit.",
+   "answers": [
+    {
+     "tl": "Gusto kong pumunta, pero wala akong oras.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "existentials"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i015",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "Even though I'm tired, I'll still study.",
+   "cueDe": "Obwohl ich müde bin, lerne ich trotzdem.",
+   "answers": [
+    {
+     "tl": "Kahit pagod ako, mag-aaral pa rin ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i016",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "What do you want to eat?",
+   "cueDe": "Was möchtest du essen?",
+   "answers": [
+    {
+     "tl": "Ano ang gusto mong kainin?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Ano po ang gusto ninyong kainin?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker",
+    "focus_object"
+   ],
+   "difficulty": 3,
+   "gloss": "kainin (object focus), because the question is about the thing eaten.",
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i017",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "Do you want to come along?",
+   "cueDe": "Willst du mitkommen?",
+   "answers": [
+    {
+     "tl": "Gusto mo bang sumama?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Gusto po ba ninyong sumama?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 2,
+   "gloss": "The linker moves to the last enclitic: mo ba + -ng.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i018",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I don't want to leave yet.",
+   "cueDe": "Ich will noch nicht gehen.",
+   "answers": [
+    {
+     "tl": "Ayaw ko pang umalis.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i019",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I prefer coffee to tea.",
+   "cueDe": "Ich mag Kaffee lieber als Tee.",
+   "answers": [
+    {
+     "tl": "Mas gusto ko ang kape kaysa sa tsaa.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i020",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I agree with you.",
+   "cueDe": "Ich stimme dir zu.",
+   "answers": [
+    {
+     "tl": "Sang-ayon ako sa iyo.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Sang-ayon po ako sa inyo.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i021",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I think so too.",
+   "cueDe": "Das finde ich auch.",
+   "answers": [
+    {
+     "tl": "Ganoon din ang tingin ko.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Sa tingin ko rin.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i022",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I'm not sure, but I think this is better.",
+   "cueDe": "Ich bin nicht sicher, aber ich glaube, das hier ist besser.",
+   "answers": [
+    {
+     "tl": "Hindi ako sigurado, pero sa tingin ko, mas mabuti ito.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i023",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I like living in Cologne because my friends are here.",
+   "cueDe": "Ich wohne gern in Köln, weil meine Freunde hier sind.",
+   "answers": [
+    {
+     "tl": "Gusto kong tumira sa Cologne dahil nandito ang mga kaibigan ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i024",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "Because of work, I have no time.",
+   "cueDe": "Wegen der Arbeit habe ich keine Zeit.",
+   "answers": [
+    {
+     "tl": "Dahil sa trabaho, wala akong oras.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "existentials"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i025",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I can speak German and English.",
+   "cueDe": "Ich kann Deutsch und Englisch sprechen.",
+   "answers": [
+    {
+     "tl": "Marunong akong mag-Aleman at mag-Ingles.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Kaya kong magsalita ng Aleman at Ingles.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 3,
+   "gloss": "marunong = knows how to (a skill); kaya = is able to manage.",
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i026",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I can't do it alone.",
+   "cueDe": "Ich schaffe das nicht allein.",
+   "answers": [
+    {
+     "tl": "Hindi ko kayang mag-isa.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i027",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "Do I need to pay now?",
+   "cueDe": "Muss ich jetzt bezahlen?",
+   "answers": [
+    {
+     "tl": "Kailangan ko bang magbayad ngayon?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Kailangan ko po bang magbayad ngayon?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i028",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "You don't need to worry.",
+   "cueDe": "Du brauchst dir keine Sorgen zu machen.",
+   "answers": [
+    {
+     "tl": "Hindi mo kailangang mag-alala.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Hindi po ninyo kailangang mag-alala.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "word_order",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i029",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I'd like to, but I have an exam tomorrow.",
+   "cueDe": "Ich würde gern, aber ich habe morgen eine Prüfung.",
+   "answers": [
+    {
+     "tl": "Gusto ko sana, kaso may exam ako bukas.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i030",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "Why do you want to learn Tagalog?",
+   "cueDe": "Warum willst du Tagalog lernen?",
+   "answers": [
+    {
+     "tl": "Bakit mo gustong matuto ng Tagalog?",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "word_order",
+    "linker"
+   ],
+   "difficulty": 3,
+   "gloss": "mo jumps to second position, after bakit.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i031",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "I want to learn so that I can talk with my lola.",
+   "cueDe": "Ich will es lernen, damit ich mit meiner Oma reden kann.",
+   "answers": [
+    {
+     "tl": "Gusto kong matuto para makausap ko ang lola ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "linker"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i032",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "It's fine with me.",
+   "cueDe": "Für mich ist das in Ordnung.",
+   "answers": [
+    {
+     "tl": "Okay lang sa akin.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Ayos lang sa akin.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i033",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "What do you think?",
+   "cueDe": "Was meinst du?",
+   "answers": [
+    {
+     "tl": "Ano sa tingin mo?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Ano po sa tingin ninyo?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "politeness"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i034",
+   "unitId": "u03",
+   "type": "produce",
+   "cueEn": "We shouldn't be late.",
+   "cueDe": "Wir sollten nicht zu spät kommen.",
+   "answers": [
+    {
+     "tl": "Hindi tayo dapat ma-late.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Hindi tayo dapat mahuli.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i035",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "I want to eat vegetables.",
+   "instruction": "Say you want to: \"I want to…\"",
+   "sourceTl": "Kumakain ako ng gulay.",
+   "answers": [
+    {
+     "tl": "Gusto kong kumain ng gulay.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 2,
+   "gloss": "ako → ko, plus the linker and the basic verb form.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i036",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "She needs to study.",
+   "instruction": "Say she needs to: \"She needs to…\"",
+   "sourceTl": "Nag-aaral siya.",
+   "answers": [
+    {
+     "tl": "Kailangan niyang mag-aral.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i037",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "I don't want to go home.",
+   "instruction": "Make it the opposite with ayaw.",
+   "sourceTl": "Gusto kong umuwi.",
+   "answers": [
+    {
+     "tl": "Ayaw kong umuwi.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i038",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "You should go to the doctor.",
+   "instruction": "Turn it into advice with dapat.",
+   "sourceTl": "Pumunta ka sa doktor.",
+   "answers": [
+    {
+     "tl": "Dapat kang pumunta sa doktor.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i039",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "I think rent in Cologne is expensive.",
+   "instruction": "Present it as your opinion.",
+   "sourceTl": "Mahal ang renta sa Cologne.",
+   "answers": [
+    {
+     "tl": "Sa tingin ko, mahal ang renta sa Cologne.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i040",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "I'm tired because I worked all day.",
+   "instruction": "Join them with kasi (reason).",
+   "sourceTl": "Pagod ako. Nagtrabaho ako buong araw.",
+   "answers": [
+    {
+     "tl": "Pagod ako kasi nagtrabaho ako buong araw.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i041",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "I worked all day, so I'm tired.",
+   "instruction": "Join them with kaya (result). Mind the order.",
+   "sourceTl": "Pagod ako. Nagtrabaho ako buong araw.",
+   "answers": [
+    {
+     "tl": "Nagtrabaho ako buong araw, kaya pagod ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i042",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "Would you like coffee? (polite)",
+   "instruction": "Turn it into a polite question to an elder.",
+   "sourceTl": "Gusto mo ng kape.",
+   "answers": [
+    {
+     "tl": "Gusto po ba ninyo ng kape?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "politeness",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i043",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "The movie is good, but too long.",
+   "instruction": "Join them with pero and say \"too long\".",
+   "sourceTl": "Maganda ang pelikula. Mahaba ito.",
+   "answers": [
+    {
+     "tl": "Maganda ang pelikula, pero masyadong mahaba.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i044",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "Even though it's raining, I'll still go out.",
+   "instruction": "Join them with kahit … pa rin.",
+   "sourceTl": "Umuulan. Lalabas ako.",
+   "answers": [
+    {
+     "tl": "Kahit umuulan, lalabas pa rin ako.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i045",
+   "unitId": "u03",
+   "type": "transform",
+   "cueEn": "May I sit here?",
+   "instruction": "Ask it about yourself: \"May I sit here?\"",
+   "sourceTl": "Puwede kang umupo dito.",
+   "answers": [
+    {
+     "tl": "Puwede ba akong umupo dito?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Puwede po ba akong umupo dito?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i046",
+   "unitId": "u03",
+   "type": "chunkbuild",
+   "cueEn": "Say you think summer is nicer because the days are long.",
+   "cueDe": "Sag, dass du den Sommer schöner findest, weil die Tage lang sind.",
+   "answers": [
+    {
+     "tl": "Sa tingin ko, mas maganda ang tag-init kasi mahaba ang araw.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "sa tingin ko",
+    "kasi"
+   ],
+   "skills": [
+    "connectors",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i047",
+   "unitId": "u03",
+   "type": "chunkbuild",
+   "cueEn": "Say you'd like to holiday in the Philippines, but the ticket is expensive.",
+   "cueDe": "Sag, dass du gern Urlaub auf den Philippinen machen würdest, aber das Ticket teuer ist.",
+   "answers": [
+    {
+     "tl": "Gusto ko sanang magbakasyon sa Pilipinas, kaso mahal ang tiket.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "gusto ko sana",
+    "kaso"
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "linker"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i048",
+   "unitId": "u03",
+   "type": "chunkbuild",
+   "cueEn": "Say that for you money matters, but health matters more.",
+   "cueDe": "Sag, dass Geld für dich wichtig ist, aber Gesundheit wichtiger.",
+   "answers": [
+    {
+     "tl": "Para sa akin, mahalaga ang pera, pero mas mahalaga ang kalusugan.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "para sa akin",
+    "pero"
+   ],
+   "skills": [
+    "connectors",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i049",
+   "unitId": "u03",
+   "type": "chunkbuild",
+   "cueEn": "Say you need to save money, so you work on weekends.",
+   "cueDe": "Sag, dass du sparen musst und deshalb am Wochenende arbeitest.",
+   "answers": [
+    {
+     "tl": "Kailangan kong mag-ipon, kaya nagtatrabaho ako tuwing Sabado at Linggo.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "kailangan",
+    "kaya"
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i050",
+   "unitId": "u03",
+   "type": "chunkbuild",
+   "cueEn": "Say that even though Tagalog is hard, you still want to learn.",
+   "cueDe": "Sag, dass du Tagalog trotzdem lernen willst, obwohl es schwer ist.",
+   "answers": [
+    {
+     "tl": "Kahit mahirap ang Tagalog, gusto ko pa ring matuto.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "kahit",
+    "pa rin"
+   ],
+   "skills": [
+    "connectors",
+    "enclitics",
+    "pseudo_verbs"
+   ],
+   "difficulty": 4,
+   "gloss": "The linker attaches to the last enclitic: pa rin + -g.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i051",
+   "unitId": "u03",
+   "type": "chunkbuild",
+   "cueEn": "Say your relatives are far away, which is why you often video call.",
+   "cueDe": "Sag, dass deine Verwandten weit weg sind und ihr deshalb oft per Video telefoniert.",
+   "answers": [
+    {
+     "tl": "Malayo ang mga kamag-anak ko, kaya naman madalas kaming mag-video call.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "kaya naman",
+    "madalas"
+   ],
+   "skills": [
+    "connectors",
+    "linker",
+    "word_order"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i052",
+   "unitId": "u03",
+   "type": "shadow",
+   "cueEn": "I think listening is easier than speaking.",
+   "answers": [
+    {
+     "tl": "Sa tingin ko, mas madaling makinig kaysa magsalita.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i053",
+   "unitId": "u03",
+   "type": "shadow",
+   "cueEn": "I want to learn to speak fluently, without stopping.",
+   "answers": [
+    {
+     "tl": "Gusto kong matutong magsalita nang tuloy-tuloy.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i054",
+   "unitId": "u03",
+   "type": "shadow",
+   "cueEn": "For me it doesn't need to be perfect, as long as it's understood.",
+   "answers": [
+    {
+     "tl": "Para sa akin, hindi kailangang perpekto, basta naiintindihan.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "pseudo_verbs"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i055",
+   "unitId": "u03",
+   "type": "shadow",
+   "cueEn": "I don't want to switch to English, but sometimes I don't know the word.",
+   "answers": [
+    {
+     "tl": "Ayaw kong mag-Ingles, pero minsan hindi ko alam ang salita.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i056",
+   "unitId": "u03",
+   "type": "shadow",
+   "cueEn": "Even though I'm tired, I still have to go to work.",
+   "answers": [
+    {
+     "tl": "Kahit pagod ako, kailangan ko pa ring pumasok sa trabaho.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "pseudo_verbs",
+    "enclitics"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i057",
+   "unitId": "u03",
+   "type": "recognize",
+   "cueEn": "I don't want it anymore.",
+   "answers": [
+    {
+     "tl": "Ayoko na.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i058",
+   "unitId": "u03",
+   "type": "recognize",
+   "cueEn": "That will do.",
+   "answers": [
+    {
+     "tl": "Puwede na iyan.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u03-i059",
+   "unitId": "u03",
+   "type": "recognize",
+   "cueEn": "Can you manage?",
+   "answers": [
+    {
+     "tl": "Kaya mo ba?",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "u03-p01",
+   "unitId": "u03",
+   "kind": "opinion",
+   "promptEn": "Is Cologne a good place to live? Give your opinion with two reasons and one downside.",
+   "requiredChunks": [
+    "sa tingin ko",
+    "kasi",
+    "pero"
+   ],
+   "modelAnswer": {
+    "tl": "Sa tingin ko, magandang tumira sa Cologne. Una, mababait at bukas ang mga tao rito. Pangalawa, maraming puwedeng gawin kasi malaki ang lungsod. Pero mahal ang renta, kaya mahirap maghanap ng apartment."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "connectors",
+    "pseudo_verbs",
+    "word_order"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p02",
+   "unitId": "u03",
+   "kind": "situation",
+   "promptEn": "A friend wants to go out tonight but you can't. Decline nicely, explain why and suggest another day.",
+   "requiredChunks": [
+    "gusto ko sana",
+    "kaso",
+    "kailangan"
+   ],
+   "modelAnswer": {
+    "tl": "Gusto ko sanang sumama, kaso may exam ako bukas. Kailangan ko pang mag-aral ngayong gabi. Puwede ba sa Sabado na lang? Libre ako noon."
+   },
+   "targetSeconds": 45,
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "enclitics"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p03",
+   "unitId": "u03",
+   "kind": "opinion",
+   "promptEn": "Studying while working: worth it, or too much? Argue your view.",
+   "requiredChunks": [
+    "para sa akin",
+    "kahit",
+    "dahil"
+   ],
+   "modelAnswer": {
+    "tl": "Para sa akin, sulit ang pagtatrabaho habang nag-aaral. Kahit nakakapagod, natututo akong humawak ng pera at oras. Dahil dito, mas handa ako sa totoong trabaho. Pero dapat may pahinga rin, kasi mahalaga ang kalusugan."
+   },
+   "targetSeconds": 75,
+   "skills": [
+    "connectors",
+    "pseudo_verbs"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p04",
+   "unitId": "u03",
+   "kind": "retell432",
+   "promptEn": "Talk about food: what you love, what you do not like, and why.",
+   "requiredChunks": [
+    "gusto ko",
+    "ayaw ko",
+    "kasi"
+   ],
+   "modelAnswer": {
+    "tl": "Gustong-gusto ko ang lutong Pinoy, lalo na ang sinigang ng nanay ko, kasi maasim at mainit ang sabaw. Gusto ko rin ng adobo. Ayaw ko ng masyadong matamis na pagkain. Mas gusto ko ang kanin kaysa sa tinapay, kaya kanin pa rin ang kinakain ko araw-araw."
+   },
+   "targetSeconds": 90,
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "markers"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p05",
+   "unitId": "u03",
+   "kind": "situation",
+   "promptEn": "Explain to your Tita what you study and why you chose it. Use your own details.",
+   "requiredChunks": [
+    "po",
+    "kasi",
+    "gusto kong"
+   ],
+   "modelAnswer": {
+    "tl": "Nag-aaral po ako sa unibersidad sa Cologne. Pinili ko po ang kurso ko kasi interesado talaga ako rito. Gusto ko pong makahanap ng magandang trabaho pagkatapos. Mahirap po minsan, pero sa tingin ko po, sulit naman."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "politeness"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p06",
+   "unitId": "u03",
+   "kind": "opinion",
+   "promptEn": "Should children of migrants learn their parents' language? Why?",
+   "requiredChunks": [
+    "sa palagay ko",
+    "dapat",
+    "para"
+   ],
+   "modelAnswer": {
+    "tl": "Sa palagay ko, dapat matuto ang mga bata ng wika ng mga magulang nila. Mahalaga ito para makausap nila ang mga lolo at lola nila. Bahagi rin ito ng pagkatao nila. Kahit mahirap, kaya naman kung may tiyaga."
+   },
+   "targetSeconds": 75,
+   "skills": [
+    "connectors",
+    "pseudo_verbs"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p07",
+   "unitId": "u03",
+   "kind": "retell432",
+   "promptEn": "What do you need to do, want to do and have to do this month?",
+   "requiredChunks": [
+    "kailangan",
+    "gusto",
+    "dapat"
+   ],
+   "modelAnswer": {
+    "tl": "Ngayong buwan, kailangan kong tapusin ang isang malaking proyekto sa unibersidad. Dapat din akong mag-ipon, kaya magtatrabaho ako nang mas madalas. Gusto ko ring magkita kami ng mga kaibigan ko, kasi matagal na kaming hindi nagkikita. At gusto kong mag-practice ng Tagalog araw-araw."
+   },
+   "targetSeconds": 90,
+   "skills": [
+    "pseudo_verbs",
+    "connectors",
+    "linker"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u03-p08",
+   "unitId": "u03",
+   "kind": "situation",
+   "promptEn": "Disagree politely with an older relative who says life abroad is easy.",
+   "requiredChunks": [
+    "po",
+    "sa tingin ko",
+    "pero"
+   ],
+   "modelAnswer": {
+    "tl": "Naiintindihan ko po kayo, Tito, pero sa tingin ko po, hindi ganoon kadali ang buhay sa abroad. Mataas nga po ang sahod, pero mahal din po ang lahat. Malayo rin po kami sa pamilya, kaya minsan nakakalungkot."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "connectors",
+    "politeness",
+    "enclitics"
+   ],
+   "review": "needs_review"
+  }
+ ]
+}

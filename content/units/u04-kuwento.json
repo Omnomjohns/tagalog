@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "id": "u04",
+  "order": 4,
+  "title": "Kuwento",
+  "titleEn": "Telling stories",
+  "goals": [
+   "Tell a story in the completed aspect",
+   "Sequence events with tapos, habang, pagkatapos",
+   "Report what others said with daw"
+  ],
+  "skills": [
+   "aspect",
+   "focus_object",
+   "connectors",
+   "enclitics"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u04-i001",
+   "unitId": "u04",
+   "type": "produce",
+   "cueEn": "I bought the book yesterday.",
+   "answers": [
+    {
+     "tl": "Binili ko ang libro kahapon.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "focus_object",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u04-i002",
+   "unitId": "u04",
+   "type": "produce",
+   "cueEn": "After eating, we went home.",
+   "answers": [
+    {
+     "tl": "Pagkatapos kumain, umuwi kami.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u04-i003",
+   "unitId": "u04",
+   "type": "produce",
+   "cueEn": "While I was cooking, he arrived.",
+   "answers": [
+    {
+     "tl": "Habang nagluluto ako, dumating siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u04-i004",
+   "unitId": "u04",
+   "type": "produce",
+   "cueEn": "She says she's coming.",
+   "answers": [
+    {
+     "tl": "Darating daw siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u04-i005",
+   "unitId": "u04",
+   "type": "produce",
+   "cueEn": "Then we watched a movie.",
+   "answers": [
+    {
+     "tl": "Tapos, nanood kami ng pelikula.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

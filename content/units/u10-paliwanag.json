@@ -1,0 +1,120 @@
+{
+ "unit": {
+  "id": "u10",
+  "order": 10,
+  "title": "Paliwanag at debate",
+  "titleEn": "Explaining and debating",
+  "goals": [
+   "Discuss abstract topics without switching to English",
+   "Structure a long turn with examples and concessions"
+  ],
+  "skills": [
+   "connectors",
+   "word_order",
+   "linker"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u10-i001",
+   "unitId": "u10",
+   "type": "produce",
+   "cueEn": "For example, rent is expensive.",
+   "answers": [
+    {
+     "tl": "Halimbawa, mahal ang renta.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u10-i002",
+   "unitId": "u10",
+   "type": "produce",
+   "cueEn": "On the other hand, wages are higher.",
+   "answers": [
+    {
+     "tl": "Sa kabilang banda, mas mataas ang sahod.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u10-i003",
+   "unitId": "u10",
+   "type": "produce",
+   "cueEn": "What I mean is, it's not that simple.",
+   "answers": [
+    {
+     "tl": "Ang ibig kong sabihin, hindi ganoon kasimple.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u10-i004",
+   "unitId": "u10",
+   "type": "produce",
+   "cueEn": "Although it's difficult, it is necessary.",
+   "answers": [
+    {
+     "tl": "Bagaman mahirap, kailangan ito.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  },
+  {
+   "id": "u10-i005",
+   "unitId": "u10",
+   "type": "produce",
+   "cueEn": "Many Filipinos work abroad.",
+   "answers": [
+    {
+     "tl": "Maraming Pilipino ang nagtatrabaho sa ibang bansa.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "linker",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

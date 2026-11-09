@@ -1,0 +1,1778 @@
+{
+ "unit": {
+  "id": "u01",
+  "order": 1,
+  "title": "Ako at ang pamilya ko",
+  "titleEn": "Me and my family",
+  "goals": [
+   "Introduce yourself, your background, studies and work",
+   "Describe your family and who belongs to whom",
+   "Speak politely to elders with po and kayo"
+  ],
+  "skills": [
+   "markers",
+   "word_order",
+   "existentials",
+   "linker",
+   "politeness",
+   "enclitics"
+  ],
+  "status": "needs_review"
+ },
+ "chunks": [
+  {
+   "id": "u01-c01",
+   "unitId": "u01",
+   "tl": "taga-",
+   "en": "from (a place)",
+   "de": "aus",
+   "notes": "Hyphenated before a proper noun: taga-Cologne.",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c02",
+   "unitId": "u01",
+   "tl": "may / mayroon",
+   "en": "there is; to have",
+   "de": "es gibt; haben",
+   "skills": [
+    "existentials"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c03",
+   "unitId": "u01",
+   "tl": "wala",
+   "en": "there is none; to not have",
+   "de": "es gibt kein; nicht haben",
+   "skills": [
+    "existentials"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c04",
+   "unitId": "u01",
+   "tl": "anak ako ni …",
+   "en": "I'm …'s child",
+   "de": "ich bin das Kind von …",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c05",
+   "unitId": "u01",
+   "tl": "kasama ko si …",
+   "en": "I'm with …",
+   "de": "ich bin mit … zusammen",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c06",
+   "unitId": "u01",
+   "tl": "nakatira sa …",
+   "en": "lives in …",
+   "de": "wohnt in …",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c07",
+   "unitId": "u01",
+   "tl": "panganay / bunso",
+   "en": "eldest child / youngest child",
+   "de": "ältestes / jüngstes Kind",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c08",
+   "unitId": "u01",
+   "tl": "kuya / ate",
+   "en": "older brother / older sister",
+   "de": "großer Bruder / große Schwester",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c09",
+   "unitId": "u01",
+   "tl": "matagal na",
+   "en": "for a long time already",
+   "de": "schon lange",
+   "skills": [
+    "enclitics"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c10",
+   "unitId": "u01",
+   "tl": "wala pa po",
+   "en": "not yet (polite)",
+   "de": "noch nicht (höflich)",
+   "skills": [
+    "enclitics",
+    "politeness"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c11",
+   "unitId": "u01",
+   "tl": "opo",
+   "en": "yes (polite)",
+   "de": "ja (höflich)",
+   "skills": [
+    "politeness"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-c12",
+   "unitId": "u01",
+   "tl": "lumaki ako sa …",
+   "en": "I grew up in …",
+   "de": "ich bin in … aufgewachsen",
+   "skills": [
+    "markers"
+   ],
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "u01-g01",
+   "unitId": "u01",
+   "name": "Predicate first",
+   "explanationEn": "The comment comes first and the topic (marked by ang / si, or an ako-set pronoun) follows. There is no word for \"is\".",
+   "formula": "PREDICATE + ang-phrase",
+   "examples": [
+    {
+     "tl": "Nars ang nanay ko.",
+     "en": "My mother is a nurse."
+    },
+    {
+     "tl": "Pinsan ko si Maria.",
+     "en": "Maria is my cousin."
+    },
+    {
+     "tl": "Taga-Cologne ako.",
+     "en": "I am from Cologne."
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ]
+  },
+  {
+   "id": "u01-g02",
+   "unitId": "u01",
+   "name": "Markers: ang / ng / sa and si / ni / kay",
+   "explanationEn": "ang/si mark the topic, ng/ni mark the owner or a non-topic noun, sa/kay mark place, direction or the person something is for or belongs to.",
+   "formula": "ang · ng · sa (things)   si · ni · kay (names)",
+   "examples": [
+    {
+     "tl": "Bahay ito ni Tita Luz.",
+     "en": "This is Tita Luz's house."
+    },
+    {
+     "tl": "Para kay Anna ang regalo.",
+     "en": "The gift is for Anna."
+    },
+    {
+     "tl": "Maliit ang kuwarto ng mga bata.",
+     "en": "The children's room is small."
+    }
+   ],
+   "skills": [
+    "markers"
+   ]
+  },
+  {
+   "id": "u01-g03",
+   "unitId": "u01",
+   "name": "May / mayroon / wala",
+   "explanationEn": "may is followed directly by the thing. With mayroon, wala and marami, a pronoun jumps to second position and takes the linker -ng.",
+   "formula": "May + NOUN · Mayroon/Wala + pronoun-ng + NOUN",
+   "examples": [
+    {
+     "tl": "May kotse ako.",
+     "en": "I have a car."
+    },
+    {
+     "tl": "Wala akong kotse.",
+     "en": "I don't have a car."
+    },
+    {
+     "tl": "Marami akong pinsan.",
+     "en": "I have many cousins."
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker"
+   ]
+  },
+  {
+   "id": "u01-g04",
+   "unitId": "u01",
+   "name": "Linker na / -ng",
+   "explanationEn": "A describing word and the word it describes are always linked. After a vowel add -ng, after n add -g, otherwise use na.",
+   "formula": "vowel + -ng · n + -g · consonant + na",
+   "examples": [
+    {
+     "tl": "malaking bahay",
+     "en": "big house"
+    },
+    {
+     "tl": "mabait na nanay",
+     "en": "kind mother"
+    },
+    {
+     "tl": "ang librong ito",
+     "en": "this book"
+    }
+   ],
+   "skills": [
+    "linker"
+   ]
+  },
+  {
+   "id": "u01-g05",
+   "unitId": "u01",
+   "name": "Politeness: po and kayo",
+   "explanationEn": "To an elder or stranger, add po and use the plural pronouns kayo / ninyo / inyo instead of ka / mo / iyo. Answer yes with opo.",
+   "formula": "po after the first word (and after na/pa) · kayo/ninyo/inyo for one elder",
+   "examples": [
+    {
+     "tl": "Kumusta po kayo?",
+     "en": "How are you? (polite)"
+    },
+    {
+     "tl": "Ano po ang pangalan ninyo?",
+     "en": "What is your name? (polite)"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "enclitics"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "u01-i001",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I'm from Cologne, but my parents are from the Philippines.",
+   "cueDe": "Ich komme aus Köln, aber meine Eltern kommen von den Philippinen.",
+   "answers": [
+    {
+     "tl": "Taga-Cologne ako, pero taga-Pilipinas ang mga magulang ko.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Taga-Cologne po ako, pero taga-Pilipinas po ang mga magulang ko.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i002",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I have two siblings.",
+   "cueDe": "Ich habe zwei Geschwister.",
+   "answers": [
+    {
+     "tl": "May dalawa akong kapatid.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Dalawa ang kapatid ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "gloss": "ako moves to second position and takes the linker: dalawa akong kapatid.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i003",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(To an elder) Do you have children?",
+   "cueDe": "(Zu einer älteren Person) Haben Sie Kinder?",
+   "answers": [
+    {
+     "tl": "May mga anak po ba kayo?",
+     "register": "polite"
+    },
+    {
+     "tl": "May anak ka ba?",
+     "register": "casual"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "enclitics",
+    "existentials"
+   ],
+   "difficulty": 2,
+   "gloss": "po comes before ba; kayo replaces ka.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i004",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "Is your mother in Germany too?",
+   "cueDe": "Ist deine Mutter auch in Deutschland?",
+   "answers": [
+    {
+     "tl": "Nasa Germany rin ba ang nanay mo?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Nasa Germany rin po ba ang nanay ninyo?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "markers"
+   ],
+   "difficulty": 2,
+   "gloss": "rin (after a vowel sound) comes before ba.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i005",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "This book is Ben's.",
+   "cueDe": "Dieses Buch gehört Ben.",
+   "answers": [
+    {
+     "tl": "Kay Ben ang librong ito.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "linker"
+   ],
+   "difficulty": 2,
+   "gloss": "kay marks the owner when the owner is the predicate; libro + -ng + ito.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i006",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I'm studying at a university in Cologne.",
+   "cueDe": "Ich studiere an einer Uni in Köln.",
+   "answers": [
+    {
+     "tl": "Nag-aaral ako sa isang unibersidad sa Cologne.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Nag-aaral po ako sa isang unibersidad sa Cologne.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i007",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(To your Lola) Lola, this is Anna, my friend.",
+   "cueDe": "(Zu deiner Lola) Lola, das ist Anna, meine Freundin.",
+   "answers": [
+    {
+     "tl": "Lola, ito po si Anna, kaibigan ko.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i008",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I don't have a car.",
+   "cueDe": "Ich habe kein Auto.",
+   "answers": [
+    {
+     "tl": "Wala akong kotse.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i009",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "What's your name?",
+   "cueDe": "Wie heißt du?",
+   "answers": [
+    {
+     "tl": "Ano ang pangalan mo?",
+     "register": "neutral"
+    },
+    {
+     "tl": "Ano po ang pangalan ninyo?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "markers",
+    "politeness"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i010",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I'm twenty years old.",
+   "cueDe": "Ich bin zwanzig Jahre alt.",
+   "answers": [
+    {
+     "tl": "Dalawampung taong gulang ako.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Bente anyos na ako.",
+     "register": "casual"
+    },
+    {
+     "tl": "Dalawampung taong gulang na po ako.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i011",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I was born in Germany.",
+   "cueDe": "Ich bin in Deutschland geboren.",
+   "answers": [
+    {
+     "tl": "Ipinanganak ako sa Germany.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Sa Germany po ako ipinanganak.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i012",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "My mother is a nurse.",
+   "cueDe": "Meine Mutter ist Krankenschwester.",
+   "answers": [
+    {
+     "tl": "Nars ang nanay ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i013",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "Maria is my cousin.",
+   "cueDe": "Maria ist meine Cousine.",
+   "answers": [
+    {
+     "tl": "Pinsan ko si Maria.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i014",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I'm the youngest in our family.",
+   "cueDe": "Ich bin das jüngste Kind in unserer Familie.",
+   "answers": [
+    {
+     "tl": "Ako ang bunso sa pamilya namin.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Bunso ako sa pamilya namin.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i015",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "My grandmother lives in the Philippines.",
+   "cueDe": "Meine Oma wohnt auf den Philippinen.",
+   "answers": [
+    {
+     "tl": "Nakatira sa Pilipinas ang lola ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i016",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I live with my parents.",
+   "cueDe": "Ich wohne bei meinen Eltern.",
+   "answers": [
+    {
+     "tl": "Kasama ko sa bahay ang mga magulang ko.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Nakatira ako kasama ang mga magulang ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i017",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I have a part-time job in a café.",
+   "cueDe": "Ich habe einen Nebenjob in einem Café.",
+   "answers": [
+    {
+     "tl": "May part-time akong trabaho sa isang café.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i018",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "We have relatives in Manila.",
+   "cueDe": "Wir haben Verwandte in Manila.",
+   "answers": [
+    {
+     "tl": "May mga kamag-anak kami sa Maynila.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i019",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(To an elder) Where do you live?",
+   "cueDe": "(Zu einer älteren Person) Wo wohnen Sie?",
+   "answers": [
+    {
+     "tl": "Saan po kayo nakatira?",
+     "register": "polite"
+    },
+    {
+     "tl": "Saan ka nakatira?",
+     "register": "casual"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i020",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "Who is that woman?",
+   "cueDe": "Wer ist diese Frau dort?",
+   "answers": [
+    {
+     "tl": "Sino ang babaeng iyon?",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i021",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "She's my older sister.",
+   "cueDe": "Sie ist meine große Schwester.",
+   "answers": [
+    {
+     "tl": "Ate ko siya.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i022",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "Our family is big.",
+   "cueDe": "Unsere Familie ist groß.",
+   "answers": [
+    {
+     "tl": "Malaki ang pamilya namin.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i023",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "This is for my mom.",
+   "cueDe": "Das ist für meine Mutter.",
+   "answers": [
+    {
+     "tl": "Para sa nanay ko ito.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Para kay Nanay ito.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers"
+   ],
+   "difficulty": 2,
+   "gloss": "sa for a common noun, kay when Nanay is used like a name.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i024",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "The gift is from Tita Luz.",
+   "cueDe": "Das Geschenk ist von Tita Luz.",
+   "answers": [
+    {
+     "tl": "Galing kay Tita Luz ang regalo.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i025",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(Your Tita asks if you have a girlfriend or boyfriend yet) Not yet.",
+   "cueDe": "(Deine Tita fragt, ob du schon eine Freundin oder einen Freund hast) Noch nicht.",
+   "answers": [
+    {
+     "tl": "Wala pa po.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "politeness",
+    "existentials"
+   ],
+   "difficulty": 1,
+   "gloss": "pa before po.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i026",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(Same question, but the answer is yes) I already have one.",
+   "cueDe": "(Gleiche Frage, aber die Antwort ist ja) Ich habe schon jemanden.",
+   "answers": [
+    {
+     "tl": "Mayroon na po.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "enclitics",
+    "politeness",
+    "existentials"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i027",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(To an elder) Yes, I'm Liza's child.",
+   "cueDe": "(Zu einer älteren Person) Ja, ich bin das Kind von Liza.",
+   "answers": [
+    {
+     "tl": "Opo, anak po ako ni Liza.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "markers",
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i028",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "My parents have been in Germany for a long time.",
+   "cueDe": "Meine Eltern sind schon lange in Deutschland.",
+   "answers": [
+    {
+     "tl": "Matagal na sa Germany ang mga magulang ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "enclitics",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i029",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I understand Tagalog, but I'm still shy about speaking.",
+   "cueDe": "Ich verstehe Tagalog, aber ich traue mich noch nicht zu sprechen.",
+   "answers": [
+    {
+     "tl": "Nakakaintindi ako ng Tagalog, pero nahihiya pa akong magsalita.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "enclitics",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i030",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I have many cousins in the Philippines.",
+   "cueDe": "Ich habe viele Cousins auf den Philippinen.",
+   "answers": [
+    {
+     "tl": "Marami akong pinsan sa Pilipinas.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i031",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "(To an elder) What is your job?",
+   "cueDe": "(Zu einer älteren Person) Was arbeiten Sie?",
+   "answers": [
+    {
+     "tl": "Ano po ang trabaho ninyo?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i032",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "My older brother's wife is German.",
+   "cueDe": "Die Frau meines großen Bruders ist Deutsche.",
+   "answers": [
+    {
+     "tl": "Aleman ang asawa ng kuya ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "gloss": "Many speakers simply say \"German ang asawa ng kuya ko.\"",
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i033",
+   "unitId": "u01",
+   "type": "produce",
+   "cueEn": "I'm here at my aunt's house.",
+   "cueDe": "Ich bin hier im Haus meiner Tante.",
+   "answers": [
+    {
+     "tl": "Nandito ako sa bahay ng tita ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i034",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "My kind mother is a nurse.",
+   "instruction": "Use it inside a phrase: \"My kind mother is a nurse.\"",
+   "sourceTl": "Mabait ang nanay ko.",
+   "answers": [
+    {
+     "tl": "Nars ang mabait kong nanay.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Nars ang mabait na nanay ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "linker",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i035",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "This is my bag.",
+   "instruction": "Say it with the ko-set pronoun.",
+   "sourceTl": "Sa akin ang bag na ito.",
+   "answers": [
+    {
+     "tl": "Bag ko ito.",
+     "register": "neutral"
+    },
+    {
+     "tl": "Ito ang bag ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i036",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "I don't have a sibling.",
+   "instruction": "Make it negative.",
+   "sourceTl": "May kapatid ako.",
+   "answers": [
+    {
+     "tl": "Wala akong kapatid.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i037",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "Are you a student? (polite)",
+   "instruction": "Turn it into a polite question to an elder.",
+   "sourceTl": "Estudyante ka.",
+   "answers": [
+    {
+     "tl": "Estudyante po ba kayo?",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "enclitics"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i038",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "This is Tita Luz's house.",
+   "instruction": "Replace \"my aunt\" with her name: Tita Luz.",
+   "sourceTl": "Bahay ito ng tita ko.",
+   "answers": [
+    {
+     "tl": "Bahay ito ni Tita Luz.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i039",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "The gift is for Anna.",
+   "instruction": "Replace \"my friend\" with the name Anna.",
+   "sourceTl": "Para sa kaibigan ko ang regalo.",
+   "answers": [
+    {
+     "tl": "Para kay Anna ang regalo.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i040",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "They have a big house.",
+   "instruction": "Say it with may: \"They have a big house.\"",
+   "sourceTl": "Malaki ang bahay nila.",
+   "answers": [
+    {
+     "tl": "May malaking bahay sila.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i041",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "My parents aren't in Cologne.",
+   "instruction": "Make it negative.",
+   "sourceTl": "Nasa Cologne ang mga magulang ko.",
+   "answers": [
+    {
+     "tl": "Wala sa Cologne ang mga magulang ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "markers"
+   ],
+   "difficulty": 2,
+   "gloss": "nasa → wala sa.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i042",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "Anna and Ben are my friends.",
+   "instruction": "Make it about two people: Anna and Ben.",
+   "sourceTl": "Kaibigan ko si Anna.",
+   "answers": [
+    {
+     "tl": "Mga kaibigan ko sina Anna at Ben.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers"
+   ],
+   "difficulty": 2,
+   "gloss": "sina is the plural of si.",
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i043",
+   "unitId": "u01",
+   "type": "transform",
+   "cueEn": "This book is yours. (polite)",
+   "instruction": "Say it is the elder's: \"This book is yours\" (polite).",
+   "sourceTl": "Sa akin ang librong ito.",
+   "answers": [
+    {
+     "tl": "Sa inyo po ang librong ito.",
+     "register": "polite"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i044",
+   "unitId": "u01",
+   "type": "chunkbuild",
+   "cueEn": "Say you have an older brother but no younger sibling.",
+   "cueDe": "Sag, dass du einen großen Bruder hast, aber kein jüngeres Geschwister.",
+   "answers": [
+    {
+     "tl": "May kuya ako, pero wala akong nakababatang kapatid.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "may",
+    "pero",
+    "wala"
+   ],
+   "skills": [
+    "existentials",
+    "linker",
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i045",
+   "unitId": "u01",
+   "type": "chunkbuild",
+   "cueEn": "Say your family is from the Philippines, but you grew up in Germany.",
+   "cueDe": "Sag, dass deine Familie von den Philippinen kommt, du aber in Deutschland aufgewachsen bist.",
+   "answers": [
+    {
+     "tl": "Taga-Pilipinas ang pamilya ko, pero lumaki ako sa Germany.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "taga-",
+    "pero",
+    "lumaki"
+   ],
+   "skills": [
+    "markers",
+    "connectors",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i046",
+   "unitId": "u01",
+   "type": "chunkbuild",
+   "cueEn": "Name your two siblings: \"Ana and Ben are my siblings.\"",
+   "cueDe": "Nenne deine zwei Geschwister: „Ana und Ben sind meine Geschwister.\"",
+   "answers": [
+    {
+     "tl": "Sina Ana at Ben ang mga kapatid ko.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "sina",
+    "at",
+    "ang mga"
+   ],
+   "skills": [
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i047",
+   "unitId": "u01",
+   "type": "chunkbuild",
+   "cueEn": "(To an elder) Yes, I know your child.",
+   "cueDe": "(Zu einer älteren Person) Ja, ich kenne Ihr Kind.",
+   "answers": [
+    {
+     "tl": "Opo, kilala ko po ang anak ninyo.",
+     "register": "polite"
+    }
+   ],
+   "requiredChunks": [
+    "opo",
+    "po",
+    "ninyo"
+   ],
+   "skills": [
+    "politeness",
+    "enclitics",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i048",
+   "unitId": "u01",
+   "type": "chunkbuild",
+   "cueEn": "Say you live in Cologne together with your family.",
+   "cueDe": "Sag, dass du mit deiner Familie in Köln wohnst.",
+   "answers": [
+    {
+     "tl": "Nakatira ako sa Cologne kasama ang pamilya ko.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "nakatira",
+    "kasama",
+    "sa"
+   ],
+   "skills": [
+    "markers",
+    "word_order"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i049",
+   "unitId": "u01",
+   "type": "chunkbuild",
+   "cueEn": "Say you have many friends here, but only a few know Tagalog.",
+   "cueDe": "Sag, dass du hier viele Freunde hast, aber nur wenige Tagalog können.",
+   "answers": [
+    {
+     "tl": "Marami akong kaibigan dito, pero kaunti lang ang marunong mag-Tagalog.",
+     "register": "neutral"
+    }
+   ],
+   "requiredChunks": [
+    "marami",
+    "pero",
+    "kaunti lang"
+   ],
+   "skills": [
+    "existentials",
+    "linker",
+    "connectors"
+   ],
+   "difficulty": 4,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i050",
+   "unitId": "u01",
+   "type": "shadow",
+   "cueEn": "I'm from Cologne, but my parents are Filipino.",
+   "answers": [
+    {
+     "tl": "Taga-Cologne ako, pero Pilipino ang mga magulang ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "markers"
+   ],
+   "difficulty": 2,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i051",
+   "unitId": "u01",
+   "type": "shadow",
+   "cueEn": "I have two siblings, an older brother and a youngest sister.",
+   "answers": [
+    {
+     "tl": "Mayroon akong dalawang kapatid, isang kuya at isang bunsong babae.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i052",
+   "unitId": "u01",
+   "type": "shadow",
+   "cueEn": "How are you? We haven't seen each other in a long time. (polite)",
+   "answers": [
+    {
+     "tl": "Kumusta po kayo? Matagal na po tayong hindi nagkita.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "politeness",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i053",
+   "unitId": "u01",
+   "type": "shadow",
+   "cueEn": "I study at university and I also work part-time.",
+   "answers": [
+    {
+     "tl": "Nag-aaral ako sa unibersidad at nagtatrabaho rin ako nang part-time.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "word_order",
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i054",
+   "unitId": "u01",
+   "type": "shadow",
+   "cueEn": "I want to learn to speak Tagalog better.",
+   "answers": [
+    {
+     "tl": "Gusto kong matutong magsalita ng Tagalog nang mas mahusay.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "linker",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "needs_review",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i055",
+   "unitId": "u01",
+   "type": "recognize",
+   "cueEn": "I'm not married yet.",
+   "answers": [
+    {
+     "tl": "Wala pa akong asawa.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "existentials",
+    "enclitics"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i056",
+   "unitId": "u01",
+   "type": "recognize",
+   "cueEn": "Who are you with?",
+   "answers": [
+    {
+     "tl": "Sino ang kasama mo?",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  },
+  {
+   "id": "u01-i057",
+   "unitId": "u01",
+   "type": "recognize",
+   "cueEn": "Whose phone is this?",
+   "answers": [
+    {
+     "tl": "Kanino ang teleponong ito?",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "markers",
+    "linker"
+   ],
+   "difficulty": 1,
+   "review": "needs_review",
+   "confidence": "high",
+   "source": "llm"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "u01-p01",
+   "unitId": "u01",
+   "kind": "situation",
+   "promptEn": "You meet an old friend of your mom's (a Tita) at a party. Introduce yourself politely: name, age, whose child you are, what you do. Use your own details.",
+   "requiredChunks": [
+    "po",
+    "anak ako ni",
+    "nag-aaral ako"
+   ],
+   "modelAnswer": {
+    "tl": "Magandang gabi po, Tita. Ako po si Alex, anak po ako ni Liza. Dalawampung taong gulang na po ako. Nag-aaral po ako sa unibersidad sa Cologne, at may part-time din po akong trabaho."
+   },
+   "targetSeconds": 45,
+   "skills": [
+    "politeness",
+    "markers",
+    "enclitics"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p02",
+   "unitId": "u01",
+   "kind": "situation",
+   "promptEn": "Describe your family to a new Filipino friend: how many you are, who is the eldest and youngest, where everyone lives.",
+   "requiredChunks": [
+    "may",
+    "panganay",
+    "nakatira"
+   ],
+   "modelAnswer": {
+    "tl": "Apat kami sa pamilya. May isa akong kuya, siya ang panganay, at ako ang bunso. Nakatira kami sa Cologne, pero nasa Pilipinas pa ang lola ko at ang iba naming kamag-anak."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "existentials",
+    "markers",
+    "linker"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p03",
+   "unitId": "u01",
+   "kind": "situation",
+   "promptEn": "A relative asks where you are \"really\" from. Explain your background: born and raised in Germany, parents from the Philippines.",
+   "requiredChunks": [
+    "ipinanganak",
+    "lumaki",
+    "taga-"
+   ],
+   "modelAnswer": {
+    "tl": "Ipinanganak at lumaki ako sa Germany, pero taga-Pilipinas ang mga magulang ko. Taga-Batangas ang nanay ko, at taga-Cebu naman ang tatay ko. Kaya Pilipino rin ako, kahit dito ako lumaki."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "markers",
+    "word_order",
+    "enclitics"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p04",
+   "unitId": "u01",
+   "kind": "story",
+   "promptEn": "Tell how your parents came to Germany, as far as you know the story.",
+   "requiredChunks": [
+    "matagal na",
+    "noon",
+    "dahil sa trabaho"
+   ],
+   "modelAnswer": {
+    "tl": "Matagal na sa Germany ang mga magulang ko. Pumunta rito ang nanay ko noon dahil sa trabaho. Dito sila nagkakilala ng tatay ko, at dito na rin kami ipinanganak ng kapatid ko."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "markers",
+    "word_order",
+    "enclitics"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p05",
+   "unitId": "u01",
+   "kind": "opinion",
+   "promptEn": "What is the best part and the hardest part of having family in two countries?",
+   "requiredChunks": [
+    "ang maganda",
+    "ang mahirap",
+    "pero"
+   ],
+   "modelAnswer": {
+    "tl": "Ang maganda, may dalawa akong tahanan at dalawang kultura. Ang mahirap, malayo ang mga kamag-anak ko at bihira ko silang makita. Pero masaya ako tuwing nagkikita kami."
+   },
+   "targetSeconds": 60,
+   "skills": [
+    "existentials",
+    "linker",
+    "word_order"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p06",
+   "unitId": "u01",
+   "kind": "retell432",
+   "promptEn": "Talk about your family: who they are, what they do, what they are like.",
+   "requiredChunks": [
+    "si",
+    "ang",
+    "mabait"
+   ],
+   "modelAnswer": {
+    "tl": "Apat kami sa pamilya. Nars ang nanay ko, at nagtatrabaho sa pabrika ang tatay ko. Masipag silang dalawa. May kuya ako na mas matanda sa akin nang tatlong taon. Mabait siya, pero makulit minsan. Malapit kami sa isa't isa."
+   },
+   "targetSeconds": 90,
+   "skills": [
+    "markers",
+    "word_order",
+    "linker"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p07",
+   "unitId": "u01",
+   "kind": "retell432",
+   "promptEn": "Introduce yourself fully: background, studies, job, where and with whom you live.",
+   "requiredChunks": [
+    "taga-",
+    "nag-aaral",
+    "kasama"
+   ],
+   "modelAnswer": {
+    "tl": "Ako si Alex. Dalawampung taong gulang ako at taga-Cologne ako. Nag-aaral ako sa unibersidad, at may part-time akong trabaho. Kasama ko sa bahay ang pamilya ko. Pilipino ang mga magulang ko, kaya nakakaintindi ako ng Tagalog."
+   },
+   "targetSeconds": 90,
+   "skills": [
+    "markers",
+    "word_order",
+    "existentials"
+   ],
+   "review": "needs_review"
+  },
+  {
+   "id": "u01-p08",
+   "unitId": "u01",
+   "kind": "situation",
+   "promptEn": "Phone call with your Lola: greet her politely, ask how she is and whether she has eaten, and tell her who is at home with you.",
+   "requiredChunks": [
+    "po",
+    "kumusta",
+    "na ba"
+   ],
+   "modelAnswer": {
+    "tl": "Hello po, Lola! Kumusta na po kayo? Kumain na po ba kayo? Nandito po kami sa bahay, kasama ko po sina Nanay at Kuya. Miss na po namin kayo."
+   },
+   "targetSeconds": 45,
+   "skills": [
+    "politeness",
+    "enclitics",
+    "markers"
+   ],
+   "review": "needs_review"
+  }
+ ]
+}

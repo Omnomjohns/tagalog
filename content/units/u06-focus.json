@@ -1,0 +1,123 @@
+{
+ "unit": {
+  "id": "u06",
+  "order": 6,
+  "title": "Focus in depth",
+  "titleEn": "Focus in depth",
+  "goals": [
+   "Choose object, locative, benefactive or instrumental focus",
+   "Let the definite thing be the ang-phrase"
+  ],
+  "skills": [
+   "focus_object",
+   "focus_locative",
+   "focus_benefactive",
+   "focus_instrumental"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u06-i001",
+   "unitId": "u06",
+   "type": "produce",
+   "cueEn": "I'll cook the fish.",
+   "answers": [
+    {
+     "tl": "Lulutuin ko ang isda.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "focus_object",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u06-i002",
+   "unitId": "u06",
+   "type": "produce",
+   "cueEn": "I cooked for my mom.",
+   "answers": [
+    {
+     "tl": "Ipinagluto ko ang nanay ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "focus_benefactive",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  },
+  {
+   "id": "u06-i003",
+   "unitId": "u06",
+   "type": "produce",
+   "cueEn": "I gave the gift to Ana.",
+   "answers": [
+    {
+     "tl": "Ibinigay ko ang regalo kay Ana.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "focus_object",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u06-i004",
+   "unitId": "u06",
+   "type": "produce",
+   "cueEn": "I helped my older brother.",
+   "answers": [
+    {
+     "tl": "Tinulungan ko ang kuya ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "focus_locative",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u06-i005",
+   "unitId": "u06",
+   "type": "produce",
+   "cueEn": "I used the knife to cut.",
+   "answers": [
+    {
+     "tl": "Ipinanghiwa ko ang kutsilyo.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "focus_instrumental"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

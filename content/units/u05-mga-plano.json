@@ -1,0 +1,125 @@
+{
+ "unit": {
+  "id": "u05",
+  "order": 5,
+  "title": "Mga plano",
+  "titleEn": "Plans",
+  "goals": [
+   "Talk about plans and intentions",
+   "Give purposes with para",
+   "Use kung and sana"
+  ],
+  "skills": [
+   "aspect",
+   "conditionals",
+   "connectors",
+   "pseudo_verbs"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u05-i001",
+   "unitId": "u05",
+   "type": "produce",
+   "cueEn": "I plan to go home to the Philippines next year.",
+   "answers": [
+    {
+     "tl": "Balak kong umuwi sa Pilipinas sa susunod na taon.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "pseudo_verbs",
+    "linker"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u05-i002",
+   "unitId": "u05",
+   "type": "produce",
+   "cueEn": "I'm saving up so I can buy a laptop.",
+   "answers": [
+    {
+     "tl": "Nag-iipon ako para makabili ng laptop.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "connectors",
+    "abilitative"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u05-i003",
+   "unitId": "u05",
+   "type": "produce",
+   "cueEn": "If it rains, I won't leave.",
+   "answers": [
+    {
+     "tl": "Kung uulan, hindi ako aalis.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u05-i004",
+   "unitId": "u05",
+   "type": "produce",
+   "cueEn": "I hope you can come.",
+   "answers": [
+    {
+     "tl": "Sana makapunta ka.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals",
+    "abilitative"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u05-i005",
+   "unitId": "u05",
+   "type": "produce",
+   "cueEn": "When I finish my studies, I'll look for a job.",
+   "answers": [
+    {
+     "tl": "Kapag natapos ko ang pag-aaral ko, maghahanap ako ng trabaho.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "conditionals",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

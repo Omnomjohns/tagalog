@@ -1,0 +1,122 @@
+{
+ "unit": {
+  "id": "u09",
+  "order": 9,
+  "title": "Damdamin",
+  "titleEn": "Feelings and relationships",
+  "goals": [
+   "Describe feelings and what causes them",
+   "Add nuance with nga, naman, pala"
+  ],
+  "skills": [
+   "enclitics",
+   "aspect",
+   "linker"
+  ],
+  "status": "draft"
+ },
+ "chunks": [],
+ "patterns": [],
+ "items": [
+  {
+   "id": "u09-i001",
+   "unitId": "u09",
+   "type": "produce",
+   "cueEn": "I miss my grandmother.",
+   "answers": [
+    {
+     "tl": "Nami-miss ko ang lola ko.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "markers"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u09-i002",
+   "unitId": "u09",
+   "type": "produce",
+   "cueEn": "That movie is scary.",
+   "answers": [
+    {
+     "tl": "Nakakatakot ang pelikulang iyon.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "linker",
+    "word_order"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u09-i003",
+   "unitId": "u09",
+   "type": "produce",
+   "cueEn": "I was happy when I saw you.",
+   "answers": [
+    {
+     "tl": "Natuwa ako nang makita kita.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "aspect",
+    "connectors"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "low",
+   "source": "llm"
+  },
+  {
+   "id": "u09-i004",
+   "unitId": "u09",
+   "type": "produce",
+   "cueEn": "Oh, so you're here!",
+   "answers": [
+    {
+     "tl": "Nandito ka pala!",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "enclitics"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  },
+  {
+   "id": "u09-i005",
+   "unitId": "u09",
+   "type": "produce",
+   "cueEn": "I'm too shy to speak.",
+   "answers": [
+    {
+     "tl": "Nahihiya akong magsalita.",
+     "register": "neutral"
+    }
+   ],
+   "skills": [
+    "linker",
+    "aspect"
+   ],
+   "difficulty": 3,
+   "review": "draft",
+   "confidence": "medium",
+   "source": "llm"
+  }
+ ],
+ "prompts": []
+}

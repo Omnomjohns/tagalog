@@ -17,6 +17,7 @@ function repoBase(): string {
 export default defineConfig({
   base: process.env.VITE_BASE ?? repoBase(),
   build: { target: 'es2022', sourcemap: false },
+  define: { __APP_VERSION__: JSON.stringify(process.env.npm_package_version ?? 'dev') },
   plugins: [
     VitePWA({
       registerType: 'prompt',

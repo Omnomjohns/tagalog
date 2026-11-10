@@ -51,7 +51,7 @@ export class SalitaDB extends Dexie {
       skills: 'skill',
       days: 'day',
       retells: '++id, ts',
-      recordings: '++id, refId, kind, ts',
+      recordings: '++id, refId, kind, ts, [kind+refId]',
       overrides: 'id',
       kv: 'key',
     });

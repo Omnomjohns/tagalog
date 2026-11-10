@@ -9,11 +9,26 @@ The user tests only on an iPhone 16 from the deployed URL. Everything else must 
 **Full spec: `docs/SPEC.md` — read it before doing anything.**
 
 ## Phase status
-- Phase 1 (MVP): **NOT STARTED — waiting for user OK on plan, folder tree and 10 sample items (SPEC section 12).**
+- Phase 1 (MVP): **BUILT, waiting for the user's iPhone test** (SPEC section 11 checklist). Verified in the VM:
+  type-check, 37 unit tests, production build, bundle 144 kB gzip (budget 200), headless smoke test
+  (manifest, service worker, offline start, full session). Not verifiable here: everything iOS Safari.
 - Phase 2: not started. Do not start unless the user explicitly asks.
 - Phase 3: not started. Optional, ask first.
 
-Open decisions awaiting the user: mascot name ("Mata" suggested) and colours.
+Decisions made with the user in Phase 1:
+- Mascot is "Mata": caramel fur, cream belly, deep brown eyes.
+- "Record reference" (SPEC 5b) is in Phase 1: Units → unit → tap a sentence. Shadowing only schedules items
+  that have reference audio, because there is no generated audio before Phase 2.
+- Extra dev dependencies approved: @types/react, @types/react-dom, @types/node, fake-indexeddb.
+- Recordings are not part of the JSON export (zip export is Phase 2).
+
+Things a new session should know:
+- ts-fsrs is pinned at 6.0.0 and used through its legacy `fsrs()` API with short-term steps off (src/srs/fsrs.ts).
+- Recordings are stored as ArrayBuffer + mimeType, not Blob (more robust in IndexedDB on iOS and in tests).
+- Stored data format is `SCHEMA_VERSION = 1` (src/db/dexie.ts); a change needs a Dexie upgrade plus a backup migration.
+- Content JSON was generated once from a compact script; edit the JSON files directly from now on.
+- Playwright is not a dependency. `npm run smoke` and `npm run icons` use the VM's global copy (scripts/playwright.mjs).
+- Item ids (u01-i001…) key the FSRS cards: never renumber, only append.
 
 ## Hard constraints (SPEC section 1)
 1. PWA for iPhone 16, installed via Safari "Add to Home Screen", standalone, native feel. No Swift, no Xcode.
